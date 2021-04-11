@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela', sans-serif;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.checks{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 100px;
+    margin-top: 50px;
+    border: 1px solid rgb(34, 31, 31);
+    font-size: 1.5em;
+    color: rgb(169, 199, 255);
+    background-color: rgb(17, 11, 11);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+    text-align: top;
+    padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type='checkbox']{
+    padding: 10px 0;
+    color: rgb(183, 226, 186);
+    border: 10px solid rgb(183, 226, 186);
+    width: 20px;
+    height: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.checks p{
+    padding: 20px 0;
+    font-size: 1.5em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type='submit']{
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(169, 199, 255) ;
+    color: rgb(17, 11, 11);
+    font-size: 1.1em;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #ccc;
 }
